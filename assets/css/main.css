@@ -41,10 +41,26 @@ header.header {
   .top-menu ul li {
     padding: 10px 30px; }
     .top-menu ul li a {
-      font-size: 18px; }
+      font-size: 18px;
+      color: #F1F2EC; }
     .top-menu ul li:hover {
-      background-color: #F1F2EC;
+      background: #FF416C;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to top, #FF4B2B, #FF416C);
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to top, #FF4B2B, #FF416C);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
       border-radius: 8px; }
 
 .top-menu ul li {
-  transition: ease-out .5s; }
+  transition: ease-in-out .5s; }
+
+.hero {
+  background: #FF416C;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #FF4B2B, #FF416C);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FF4B2B, #FF416C);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 100px 0;
+  text-align: center; }
