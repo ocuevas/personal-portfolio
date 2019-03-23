@@ -1,0 +1,61 @@
+@font-face
+{
+font-family: myFancyFont;
+src: url('../fonts/NewWaltDisney.ttf')
+}
+
+header.header {
+    background-color: $bar_color;
+    padding: 10px 0;
+    color: $white_color;
+   
+
+}
+
+.header-context {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 10px 0;
+    h3 {
+        font-family: myFancyFont, Times, serif;
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+}
+
+//Mobile first
+.top-menu {
+    ul {
+        list-style: none;
+        display: flex;
+        
+
+        li {
+            padding: 10px 30px;
+            
+            a {
+                font-size: 18px;
+
+            }
+            &:hover {
+                background-color: #F1F2EC;
+                border-radius: 8px;
+            }
+        }
+        
+    }
+}
+
+.top-menu ul li {
+    transition: ease-out .5s;
+}
+
+@media screen and (max-width: 678px) {
+    header.header {
+       
+    }
+} 

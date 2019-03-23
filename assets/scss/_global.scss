@@ -1,6 +1,23 @@
 @import 'colors';
 
 
+* {
+   margin: 0;
+   padding: 0;
+}
+
+a {
+   color: $text_primary;
+   text-decoration: none;
+}
+
 body {
-   background-color: lightblue;
+   background-color: $white_color;
+   font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
 }

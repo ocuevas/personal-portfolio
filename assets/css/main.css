@@ -1,2 +1,50 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #FC4349;
+  text-decoration: none; }
+
 body {
-  background-color: lightblue; }
+  background-color: #F1F2EC;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+@font-face {
+  font-family: myFancyFont;
+  src: url("../fonts/NewWaltDisney.ttf"); }
+
+header.header {
+  background-color: #282B40;
+  padding: 10px 0;
+  color: #F1F2EC; }
+
+.header-context {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.logo {
+  padding: 10px 0; }
+  .logo h3 {
+    font-family: myFancyFont, Times, serif;
+    font-size: 35px;
+    letter-spacing: 5px; }
+
+.top-menu ul {
+  list-style: none;
+  display: flex; }
+  .top-menu ul li {
+    padding: 10px 30px; }
+    .top-menu ul li a {
+      font-size: 18px; }
+    .top-menu ul li:hover {
+      background-color: #F1F2EC;
+      border-radius: 8px; }
+
+.top-menu ul li {
+  transition: ease-out .5s; }
