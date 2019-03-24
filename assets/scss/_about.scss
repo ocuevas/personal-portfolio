@@ -1,0 +1,42 @@
+.about-section {
+    background-color: #f4f5f9;
+    padding: 40px 15px;
+}
+
+.about-content {
+    display: flex;
+
+    .avatar {
+        flex-basis: 65%;
+
+        img {
+            height: 350px;
+            border-radius: 50%;
+            width: 320px
+        }
+    }
+    .about-me-content {
+        padding: 30px;
+        p {
+            color: #3a3f49;
+            line-height: 30px;
+            font-size: 22px;
+            padding-top: 20px;
+        }
+
+        span {
+
+            a {
+                padding: 10px 0;
+                font-size: 18px;
+                text-decoration: none;
+                font-weight: 700;
+                display: block;
+            }
+        }
+    }
+}
+
+h2.title {
+    color: $bar_color;
+}
