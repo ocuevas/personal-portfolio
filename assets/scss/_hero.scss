@@ -40,4 +40,21 @@
             color: $bar_color;
         }
     }
+
+    .social-links {
+        a{
+            font-size: 40px;
+            transition: all 300ms ease-in-out;
+            color: $bar_color;
+            margin: 0 10px;
+
+            i {
+
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
 }
+
