@@ -18,11 +18,10 @@
                     </div>
                     <nav class="top-menu">
                         <ul>
-                            <li><a href="/">Portfolio</a></li>
-                            <li><a href="">About Me</a></li>
-                            <li><a href="">Skills</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#about">About Me</a></li>
                             <li><a href="">Blog</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                     </nav>
                 </div>        
@@ -44,7 +43,7 @@
             </div>
         </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="portfolio">
         <div class="container">
                 <div class="top-context">
                         <h2>My latest Projects</h2>
@@ -52,37 +51,32 @@
                     </div>
                     <div class="grid">
                             <div class="row project_grid">
-                                    <a href="#">
+                                    <a href="http://flowactivo.com/">
                                       <div class="portfolio-img">
-                                          <img src="https://cdn.dribbble.com/users/772985/screenshots/5478986/poster_dribbble.jpg" alt="">
+                                          <img src="assets/img/flowactivo.png" alt="">
                                       </div>
                                   </a>
                                   <div class="project-article">
-                                      <h3 class="project-title">Title #1</h3>
-                                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                       when an unknown printer took a galley of type and scrambled it to 
-                                      make a type specimen book.</p>
+                                      <h3 class="project-title">FlowActivo.com</h3>
+                                      <p>FlowActivo.com is one of the top urban music in Dominican Republic. Redesign WordPress theme, and the techonologies used in this new design are: HTML5, CSS3, SASS, JavaScript, WordPress. </p>
                                       <div class="project-link">
-                                          <a href="#"><i class="fas fa-link"></i>View the project</a>
+                                          <a href="http://flowactivo.com/"><i class="fas fa-link"></i>View the project</a>
                                           <a href="#"><i class="fab fa-github"></i>Github</a>
                                       </div>
                                   </div>
                                 </div>
                                 <div class="row project_grid">
-                                        <a href="#">
+                                        <a href="http://onasic.sgedu.site/index.php">
                                           <div class="portfolio-img">
-                                              <img src="https://cdn.dribbble.com/users/772985/screenshots/5478986/poster_dribbble.jpg" alt="">
+                                              <img src="assets/img/out-restaurant.png" alt="">
                                           </div>
                                       </a>
                                       <div class="project-article">
-                                          <h3 class="project-title">Title #1</h3>
-                                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                           when an unknown printer took a galley of type and scrambled it to 
-                                          make a type specimen book.</p>
+                                          <h3 class="project-title">Our Restaurant</h3>
+                                          <p>This is a web application that allows users to book a reservation with the
+                                                restaurant, shows the menu of the restaurant. The techonologies used: HTML5, CSS3, JavaScript, PHP & MySQL, Sketch </p>
                                           <div class="project-link">
-                                              <a href="#"><i class="fas fa-link"></i>View the project</a>
+                                              <a href="http://onasic.sgedu.site/index.php"><i class="fas fa-link"></i>View the project</a>
                                               <a href="#"><i class="fab fa-github"></i>Github</a>
                                           </div>
                                       </div>
@@ -91,7 +85,7 @@
         </div>
        
     </section>
-    <section class="about-section">
+    <section class="about-section" id="about">
             <div class="container">
               <div class="top-context">
                 <h2 class="title">About Me</h2>
@@ -103,15 +97,16 @@
                       <img src="assets/img/avatar.png" alt="">
                </div>
                <div class="about-me-content">
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                               when an unknown printer took a galley of type and scrambled it to 
-                              make a type specimen book.</p>                   
-                    <span><a href="#">Chech My GitHub</a></span>
+                      <p>My name is Onasi Cuevas and I’m from the Dominican Republic. I’m 22 years old and currently attending to Holy Family University in Philadelphia, USA. Where I’m majoring in Computer Information Systems, and expected to graduate in the fall 2019. 
+                        Technology and computer have been in my life since I was 13 years old, when I got my first computer. I started to code and design at the age of 15. Most of my skills and knowledge are self-taught.  
+                        </p>                   
+                    <span><a href="https://github.com/ocuevas/"> <i class="fab fa-github"></i> Chech My GitHub</a></span>
            </div>  
            </div>    
           </div>
+          
         </section>
+        <!--
         <section class="skills">
             <div class="container">
                     <div class="top-context">
@@ -122,11 +117,65 @@
                     <div class="skills-context">
                         <div class="bar-back">
                             <div class="bar-skill">
-                                
                             </div>
                         </div>
                     </div>
             </div>
         </section>
+    -->
+    <section class="section-contact" id="contact">
+    <div class="container">
+          <div class="top-context">
+                <h2 class="title-contact">Get in Touch</h2>
+                <P>Please fill out the quick form and I will be in touch within lightening speed.</P>
+          </div>
+      <div class="form-grid"> 
+      <div class="left-grid"> 
+          <form>
+             <div class="fields">
+              <div class="field half">
+                <label>Name</label>
+                <input type="text" name="name">
+              </div>
+              <div class="field half">
+                <label>Number</label>
+                <input type="text" name="name">
+              </div>
+                <div class="field">
+               <label>Email</label>
+                <input type="text" name="name">
+               </div>
+               <div class="field">
+                <label>Message</label>
+                <textarea></textarea>
+               </div>
+        
+                
+                <input type="submit" name="submit" value="Send Message">
+              </div>
+          </form>
+      </div>
+        <div class="righ-grid"> 
+            <div class="conntact-method">
+            
+              <h3><i class="fas fa-envelope"></i>Email</h3>
+              <a href="mailto:onasic96@gmail.com">onasic96@gmail.com</a>
+            </div>
+            <div class="conntact-method">
+              <h3><i class="fas fa-map-marker-alt"></i>Address</h3>
+              <p>West New York, NJ 07093<br>United States of America</p><br>
+              <p>Philadelphia, NJ 19114<br>United States of America</p>
+
+            </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>Made by <span>Onasi Cuevas</span> | <a href="https://github.com/ocuevas/personal-portfolio">View source</a></p>
+        </div>
+    </footer>
+  
 </body>
 </html>

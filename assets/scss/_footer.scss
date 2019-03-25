@@ -1,0 +1,15 @@
+.footer {
+    background-color: $bar_color;
+    padding: 20px 0;
+
+    p {
+        font-size: 18px;
+        color: #fff;
+        a {
+            display: inline;
+        }
+        span {
+            color: $text_primary;
+        }
+    }
+}

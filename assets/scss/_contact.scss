@@ -1,0 +1,148 @@
+
+/*Contact*/
+.section-contact {
+	background: $bar_color;
+}
+
+h2.title-contact {
+	color: #fff;
+}
+
+
+.form-grid {
+	display: flex;
+	flex-direction: column;
+}
+
+@media only screen and (min-width: 600px) {
+	.form-grid {
+		flex-direction: row;
+	}
+}
+
+.left-grid {
+	padding: 4em 3em 2em 0;
+	flex-basis: 50%;
+	border-right: 1px solid rgba(212,212,255,.1);
+}
+.righ-grid {
+	    padding: 3em 0 1em 3em;
+}
+
+.conntact-method {
+	margin: 30px 0;
+}
+
+.conntact-method h3 {
+	font-size: 40px;
+	color: #fff;
+}
+.conntact-method h3 i {
+	padding-right: 20px;
+	color: $text_primary;
+}
+
+.conntact-method p {
+   color: #fff;
+   display: block;
+   line-height: 30px;
+   padding: 20px 70px;
+}
+
+.conntact-method a {
+	color: #fff;
+   display: block;
+   line-height: 30px;
+   padding: 20px 70px;
+}
+
+.fields {
+	display: flex;
+    flex-wrap: wrap;
+    width: calc(100% + 3em);
+    margin: -1.5em 0 2em -1.5em;
+}
+
+form>.fields>.field {
+    -moz-flex-grow: 0;
+    -ms-flex-grow: 0;
+    flex-grow: 0;
+    -ms-flex-shrink: 0;
+    flex-shrink: 0;
+    padding: 1.5em 0 0 1.5em;
+    width: calc(100% - 1.5em);
+}
+
+form>.fields>.field.half {
+    width: calc(50% - .75em);
+}
+
+input[type=email]:invalid, input[type=password]:invalid, input[type=search]:invalid, input[type=tel]:invalid, input[type=text]:invalid, input[type=url]:invalid, select:invalid, textarea:invalid {
+    box-shadow: none;
+}
+
+input[type=email], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select {
+    height: 4em;
+}
+
+input[type=email], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: rgba(212,212,255,.035);
+    border: none;
+    border-radius: 0;
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 0 1em;
+    text-decoration: none;
+    width: 100%;
+}
+
+.field label {
+	color: #fff;
+    display: block;
+    font-size: .8em;
+    font-weight: 600;
+    letter-spacing: .25em;
+    margin: 0 0 1em;
+    text-transform: uppercase
+}
+
+
+ input[type=button], input[type=reset], input[type=submit] {
+ 	background-color: $text_primary;
+ 	border: none;
+    color: #26293a;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .8em;
+    font-weight: 600;
+    height: 3.5em;
+    letter-spacing: .25em;
+    line-height: 3.5em;
+    padding: 0 1.75em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin: 20px 25px;
+}
+
+ .field textarea {
+    padding: .75em 1em;
+    height: 20em;
+}
+
+/*
+ form textarea {
+ 	height: 300px;
+ 	background: #33364c;
+ 	border: none;
+ }
+*/
+
+
+
